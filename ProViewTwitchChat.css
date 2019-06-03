@@ -1,0 +1,37 @@
+#znipe-iframe.twitch-chat-enabled {
+  width: calc(100% - 34rem) !important; 
+}
+
+#twitch-chat-iframe.twitch-chat-enabled {
+  width: 34rem;
+  position: fixed;
+  right: 0;
+  left: auto !important;
+}
+
+#twitch-chat-frame {
+  display: none;
+}
+
+.toggle-twitch {
+  right: 289px !important;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+}
+.toggle-twitch:after {
+  display: block;
+  content: ' ';
+  position: relative;
+  background-color: #292d31;
+  height: 70%;
+  width: 1px;
+  left: 18px;
+}
+
+.toggle-twitch-image {
+  width: 24px;
+  margin-top: 4px;
+  opacity: 0.4;
+}
